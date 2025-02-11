@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0F142087-D3DB-49A4-A9F3-6D984FA0166E}</ProjectGuid>
+    <ProjectGuid>{660146FA-1DEA-4900-96C3-07826143E5DD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01_MainSubejcts</RootNamespace>
-    <AssemblyName>01_MainSubejcts</AssemblyName>
+    <RootNamespace>_02_Variables</RootNamespace>
+    <AssemblyName>02_Variables</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ders1.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
